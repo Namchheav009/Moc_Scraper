@@ -1,0 +1,39 @@
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache & build
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Testing & tool cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Outputs and exports
+exports/*.xlsx
+exports/*.csv
+exports/*.json
+exports/debug/*
+!exports/debug/.gitkeep
+!exports/debug/validation/
+exports/debug/validation/*
+!exports/debug/validation/.gitkeep
+
+# Root loose data files if any
+*.xlsx
+*.csv
+*.checkpoint.json
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
